@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/xcode_project_helper/project_helper'
+
+XcodeProjectHelper::ProjectHelper.start(ARGV)
